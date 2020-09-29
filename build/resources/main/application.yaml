@@ -1,0 +1,22 @@
+management:
+  endpoint:
+    restart:
+      enabled: true
+    health:
+      enabled: true
+    info:
+      enabled: true
+
+greeting:
+  message: Say Hello to the World
+farewell:
+  message: Say Goodbye
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: investimento
+      username: invest
+      password: 1nv35t
