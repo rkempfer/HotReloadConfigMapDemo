@@ -9,8 +9,6 @@ management:
 
 greeting:
   message: Say Hello to the World
-farewell:
-  message: Say Goodbye
 
 spring:
   data:

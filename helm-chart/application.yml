@@ -8,7 +8,7 @@ management:
       enabled: true
 
 greeting:
-  message: Mensagem Lucas
+  message: Mensagem boas vindas
 
 spring:
   data:
