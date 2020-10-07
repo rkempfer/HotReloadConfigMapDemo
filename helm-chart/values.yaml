@@ -8,7 +8,7 @@ image:
   repository: hotreloadconfigdemo
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "1.0.4"
+  tag: "1.0.5"
 
 imagePullSecrets: []
 nameOverride: ""
@@ -77,3 +77,9 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+secrets:
+  mongodb:
+    name: mongodb-secrets
+    username: aW52ZXN0
+    password: MW52MzV0

@@ -5,8 +5,9 @@ spring:
     kubernetes:
       reload:
         enabled: true
-        mode: polling
-        period: 5000
       config:
         sources:
           - name: hot-reload-demo-configmap
+      secrets:
+        sources:
+          - name: mongodb-secret

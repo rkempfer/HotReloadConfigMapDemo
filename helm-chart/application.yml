@@ -16,5 +16,3 @@ spring:
       host: my-release-mongodb.default.svc.cluster.local
       port: 27017
       database: investimento
-      username: invests
-      password: 1nv35t
